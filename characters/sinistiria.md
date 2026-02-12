@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: single          # 중요! 이 테마는 default 대신 single을 주로 씁니다.
 title: 시니스티리아
-parent: 등장인물    # 상위 메뉴 이름과 똑같이 적어야 함
-nav_order: 1
+sidebar:                # 왼쪽 목차 켜기
+  nav: "docs"
+toc: true               # 오른쪽 본문 목차(Table of Contents) 켜기
+toc_label: "프로필 목차"
+toc_icon: "cog"
 ---
 
 # 시니스티리아 (Sinistiria)
