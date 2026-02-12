@@ -1,3 +1,11 @@
-@use "./base.scss";
+/* 구글 폰트에서 Noto Sans KR 불러오기 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
-// put your custom CSS here!
+:root {
+  /* 본문과 제목 모두 Noto Sans KR 적용 */
+  --bodyFont: "Noto Sans KR", sans-serif;
+  --headerFont: "Noto Sans KR", sans-serif;
+  
+  /* 코드는 가독성을 위해 고정폭 글꼴 유지 */
+  --codeFont: "Cascadia Code", monospace;
+}
