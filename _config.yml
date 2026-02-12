@@ -1,0 +1,16 @@
+# 사이트 기본 설정
+title: 나의 세계관 위키
+description: 캐릭터와 설정 아카이브
+url: "https://mindud49.github.io"
+
+# 테마 설정 (Just the Docs - 위키형 테마)
+remote_theme: pmarsceill/just-the-docs
+
+# 디자인 옵션
+color_scheme: dark  # dark 또는 light
+search_enabled: true # 검색창 켜기
+
+# 메뉴 설정
+aux_links:
+  "GitHub 저장소":
+    - "//github.com/mindud49/mindud49.github.io"
